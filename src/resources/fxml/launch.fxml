@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: aliceblue; -fx-font-size: 18;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardgame.gui.LaunchController">
+   <children>
+      <Label layoutX="120.0" layoutY="14.0" text="&quot;Dominoes in Chess Table&quot;&#10;&#9;&#9;GAME" textFill="#d72121">
+         <font>
+            <Font name="Chilanka Regular" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="220.0" layoutY="156.0" text="First Player Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="playerName1TextField" layoutX="182.0" layoutY="177.0" />
+      <Label layoutX="207.0" layoutY="242.0" text="Second Player Name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="playerName2TextField" layoutX="182.0" layoutY="263.0" />
+      <Label fx:id="errorLabel2" layoutX="424.0" layoutY="272.0" text="                          " textFill="#dd0808">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Label fx:id="errorLabel1" layoutX="424.0" layoutY="183.0" text="                     " textFill="#d30d0d">
+         <font>
+            <Font size="10.0" />
+         </font></Label>
+      <Button layoutX="227.0" layoutY="331.0" mnemonicParsing="false" onAction="#startAction" prefHeight="46.0" prefWidth="145.0" text="Start Game" />
+   </children>
+</Pane>

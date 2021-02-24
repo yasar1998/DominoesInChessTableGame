@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="700.0" style="-fx-background-color: aliceblue;" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="boardgame.gui.LastGamesController">
+   <children>
+      <TableView fx:id="GamesTable" layoutX="1.0" layoutY="52.0" prefHeight="439.0" prefWidth="700.0">
+        <columns>
+          <TableColumn fx:id="timeCol" prefWidth="214.0" text="Date and Time" />
+            <TableColumn fx:id="playersCol" prefWidth="192.0" text="Players" />
+            <TableColumn fx:id="winnerCol" prefWidth="110.0" text="Winner" />
+            <TableColumn fx:id="dominoesCol" prefWidth="183.0" text="Dominoes" />
+        </columns>
+      </TableView>
+      <Label layoutX="238.0" layoutY="14.0" text="Last Games Table">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button layoutX="297.0" layoutY="532.0" mnemonicParsing="false" onAction="#handleRestartGame" text="Restart Game" />
+   </children>
+</Pane>
