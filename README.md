@@ -9,6 +9,10 @@ anymore and automatically another player wins the match.
 ## User Guide
 1. The game starts with the page which requires players' name to be entered to start the game. Failing to write the names will not start the game and warning
 text will appear
+
+![Screenshot from 2021-02-24 00-27-57](https://user-images.githubusercontent.com/31879611/118412550-f36a9780-b69a-11eb-92f0-abb6649a764f.png)
+
+
 2. When the game started, the start time of game, names of players appear on screen.
    During the game, the name of next turn is labeled, number of dominoes are counted and shown on the screen.
    At the end of the game, winner name appear on the screen.
