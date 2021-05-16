@@ -26,9 +26,5 @@ text will appear
 
 
 ## Some Technical Description
-Before running the project, javafx and database configuration are needed.
-- Database must be created in MySql server and the corresponding table must be added (If they don't exist)
-- JavaFx jar files and database connector jar file must be added to global library for the project (IntelliJ IDEA)
-
 1. After clicking finish button, all necessary information about current game is stored in MySql Database and last game page is being loaded
-2. When last game page starts, it is initialized with data which come from MySql Database where last five game details are shown
+2. When results page starts, it is initialized with data which come from MySql Database where last five game details are shown
