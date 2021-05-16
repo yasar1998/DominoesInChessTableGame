@@ -18,9 +18,12 @@ text will appear
    At the end of the game, winner name appear on the screen.
    For simplicity, game is provided with reset button to restart game and finish button to end it
    
-   ![Screenshot from 2021-05-16 22-52-33](https://user-images.githubusercontent.com/31879611/118412395-f4e79000-b699-11eb-9ae7-b7080c2c1c14.png)
+![Screenshot from 2021-05-16 22-52-33](https://user-images.githubusercontent.com/31879611/118412395-f4e79000-b699-11eb-9ae7-b7080c2c1c14.png)
    
 3. Last page is about details of last five games which has been recently played. Restart button has been provided there to start new game directly.
+
+![Screenshot from 2021-05-16 23-02-50](https://user-images.githubusercontent.com/31879611/118412577-109f6600-b69b-11eb-81ad-38280b134e71.png)
+
 
 ## Some Technical Description
 Before running the project, javafx and database configuration are needed.
